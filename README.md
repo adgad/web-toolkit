@@ -103,7 +103,8 @@ Before you submit your pull request, run :
     └── README.md
     
 ## Deployments
-Please ensure the version number in `package.json` (used for commenting the JS files) and `_config.yml` (used withint the HTML files) are kept in sync.
+Please update the version number in `_config.yml` (used within the HTML files).
+The version number in `package.json` (used for commenting the JS files) will be kept in sync automatically by grunt.
 
 To release a new version with:
   - Code changes
